@@ -71,13 +71,33 @@
 // System.Console.WriteLine($"int.Parse: {birthYearParse}");
 // System.Console.WriteLine($"В 2030 вам будет: {2030 - birthYearConvert} лет");
 
+// System.Console.WriteLine();
+// System.Console.WriteLine("Ввод чисел: TryParse");
+
+// System.Console.Write("Введите количество прочитанных книг за семестр: ");
+// string booksInput = Console.ReadLine();
+
+// bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
+
+// System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
+// System.Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+
+System.Console.Write("Введите имя и фамилию: ");
+string Name = System.Console.ReadLine();
+System.Console.Write("Введите название группы: ");
+string Group = System.Console.ReadLine();
+System.Console.Write("Введите год рождения: ");
+string BirthYearInput = System.Console.ReadLine();
+int BirthYear = int.Parse(BirthYearInput);
+System.Console.Write("Введите средний балл за прошлый семестр: ");
+string AverageScoreInput = System.Console.ReadLine();
+double AverageScore = double.Parse(AverageScoreInput);
+System.Console.Write("Введите любимую букву алфавита: ");
+char FavoriteLetter = System.Console.ReadLine()[0];
 System.Console.WriteLine();
-System.Console.WriteLine("Ввод чисел: TryParse");
-
-System.Console.Write("Введите количество прочитанных книг за семестр: ");
-string booksInput = Console.ReadLine();
-
-bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
-
-System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
-System.Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+System.Console.WriteLine($"     Анкета");
+System.Console.WriteLine($"{Name}, группа {Group}");
+System.Console.WriteLine($"Год рождения: {BirthYear} (в 2030 будет {2030 - BirthYear} год)");
+System.Console.WriteLine($"Средний балл: {AverageScore}");
+System.Console.WriteLine($"Балл >= 4.0: {AverageScore >= 4.0}");
+System.Console.WriteLine($"Любимая буква: {FavoriteLetter}");

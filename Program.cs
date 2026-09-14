@@ -37,14 +37,14 @@
 // System.Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
 // System.Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
-// System.Console.WriteLine();
-// System.Console.WriteLine("var");
+System.Console.WriteLine();
+System.Console.WriteLine("var");
 
-// var studentAge = 20;
-// var gpa = 4.25;
-// var fullName = "Смирнова А.С.";
+var studentAge = 20;
+var gpa = 4.25;
+var fullName = "Смирнова А.С.";
 
-// System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
 
 // using System.Runtime.Intrinsics.Arm;
 

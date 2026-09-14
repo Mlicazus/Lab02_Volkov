@@ -37,27 +37,27 @@
 // System.Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
 // System.Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
-System.Console.WriteLine();
-System.Console.WriteLine("var");
-
-var studentAge = 20;
-var gpa = 4.25;
-var fullName = "Смирнова А.С.";
-
-System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
-
-// using System.Runtime.Intrinsics.Arm;
-
 // System.Console.WriteLine();
-// System.Console.WriteLine("Ввод теста");
+// System.Console.WriteLine("var");
 
-// System.Console.Write("Введите ваше имя: ");
-// string enteredName = System.Console.ReadLine();
+// var studentAge = 20;
+// var gpa = 4.25;
+// var fullName = "Смирнова А.С.";
 
-// System.Console.Write("Введите название вашей группы: ");
-// string enteredGroup = System.Console.ReadLine();
+// System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
 
-// System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+using System.Runtime.Intrinsics.Arm;
+
+System.Console.WriteLine();
+System.Console.WriteLine("Ввод теста");
+
+System.Console.Write("Введите ваше имя: ");
+string enteredName = System.Console.ReadLine();
+
+System.Console.Write("Введите название вашей группы: ");
+string enteredGroup = System.Console.ReadLine();
+
+System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
 
 // System.Console.WriteLine();
 // System.Console.WriteLine("Ввод чисел: Convert и Parse");

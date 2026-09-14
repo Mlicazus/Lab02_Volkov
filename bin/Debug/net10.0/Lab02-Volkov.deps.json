@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Lab02-Volkov/1.0.0": {
+        "runtime": {
+          "Lab02-Volkov.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab02-Volkov/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

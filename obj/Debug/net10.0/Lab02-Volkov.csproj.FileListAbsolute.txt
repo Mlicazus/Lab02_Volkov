@@ -1,0 +1,14 @@
+C:\Users\thisr\Documents\Lab02-Volkov\bin\Debug\net10.0\Lab02-Volkov.exe
+C:\Users\thisr\Documents\Lab02-Volkov\bin\Debug\net10.0\Lab02-Volkov.deps.json
+C:\Users\thisr\Documents\Lab02-Volkov\bin\Debug\net10.0\Lab02-Volkov.runtimeconfig.json
+C:\Users\thisr\Documents\Lab02-Volkov\bin\Debug\net10.0\Lab02-Volkov.dll
+C:\Users\thisr\Documents\Lab02-Volkov\bin\Debug\net10.0\Lab02-Volkov.pdb
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.AssemblyInfoInputs.cache
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.AssemblyInfo.cs
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.csproj.CoreCompileInputs.cache
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.dll
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\refint\Lab02-Volkov.dll
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.pdb
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.genruntimeconfig.cache
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\ref\Lab02-Volkov.dll

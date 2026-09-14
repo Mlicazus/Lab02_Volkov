@@ -102,11 +102,18 @@
 // System.Console.WriteLine($"Балл >= 4.0: {AverageScore >= 4.0}");
 // System.Console.WriteLine($"Любимая буква: {FavoriteLetter}");
 
-System.Console.Write("Введите ваш рост (в метрах): ");
-string HeightInput = System.Console.ReadLine();
-double Height = double.Parse(HeightInput);
-System.Console.Write("Введите ваш вес (в килограммах): ");
-string WeightInput = System.Console.ReadLine();
-double Weight = double.Parse(WeightInput);
-double BMI = Weight / (Height * Height);
-Console.WriteLine($"ИМТ: {BMI:F2}");
+// System.Console.Write("Введите ваш рост (в метрах): ");
+// string HeightInput = System.Console.ReadLine();
+// double Height = double.Parse(HeightInput);
+// System.Console.Write("Введите ваш вес (в килограммах): ");
+// string WeightInput = System.Console.ReadLine();
+// double Weight = double.Parse(WeightInput);
+// double BMI = Weight / (Height * Height);
+// Console.WriteLine($"ИМТ: {BMI:F2}");
+
+System.Console.Write("Введите имя: ");
+string Name = System.Console.ReadLine();
+System.Console.Write("Введите фамилию: ");
+string Surname = System.Console.ReadLine();
+char FirstLetter = Name[0];
+System.Console.WriteLine($"{Surname} {FirstLetter}.");

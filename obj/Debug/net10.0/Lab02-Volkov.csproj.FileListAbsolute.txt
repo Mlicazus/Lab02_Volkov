@@ -12,3 +12,4 @@ C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\refint\Lab02-Volkov.dll
 C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.pdb
 C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.genruntimeconfig.cache
 C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\ref\Lab02-Volkov.dll
+C:\Users\thisr\Documents\Lab02-Volkov\obj\Debug\net10.0\Lab02-Volkov.sourcelink.json

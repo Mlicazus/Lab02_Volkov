@@ -46,18 +46,18 @@
 
 // System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
 
-using System.Runtime.Intrinsics.Arm;
+// using System.Runtime.Intrinsics.Arm;
 
-System.Console.WriteLine();
-System.Console.WriteLine("Ввод теста");
+// System.Console.WriteLine();
+// System.Console.WriteLine("Ввод теста");
 
-System.Console.Write("Введите ваше имя: ");
-string enteredName = System.Console.ReadLine();
+// System.Console.Write("Введите ваше имя: ");
+// string enteredName = System.Console.ReadLine();
 
-System.Console.Write("Введите название вашей группы: ");
-string enteredGroup = System.Console.ReadLine();
+// System.Console.Write("Введите название вашей группы: ");
+// string enteredGroup = System.Console.ReadLine();
 
-System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+// System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
 
 // System.Console.WriteLine();
 // System.Console.WriteLine("Ввод чисел: Convert и Parse");
@@ -71,13 +71,13 @@ System.Console.WriteLine($"Здравствуйте, {enteredName} из груп
 // System.Console.WriteLine($"int.Parse: {birthYearParse}");
 // System.Console.WriteLine($"В 2030 вам будет: {2030 - birthYearConvert} лет");
 
-// System.Console.WriteLine();
-// System.Console.WriteLine("Ввод чисел: TryParse");
+System.Console.WriteLine();
+System.Console.WriteLine("Ввод чисел: TryParse");
 
-// System.Console.Write("Введите количество прочитанных книг за семестр: ");
-// string booksInput = Console.ReadLine();
+System.Console.Write("Введите количество прочитанных книг за семестр: ");
+string booksInput = Console.ReadLine();
 
-// bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
+bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
 
-// System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
-// System.Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
+System.Console.WriteLine($"Значение переменной booksCount: {booksCount}");

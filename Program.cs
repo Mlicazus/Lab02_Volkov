@@ -111,9 +111,25 @@
 // double BMI = Weight / (Height * Height);
 // Console.WriteLine($"ИМТ: {BMI:F2}");
 
-System.Console.Write("Введите имя: ");
-string Name = System.Console.ReadLine();
-System.Console.Write("Введите фамилию: ");
-string Surname = System.Console.ReadLine();
-char FirstLetter = Name[0];
-System.Console.WriteLine($"{Surname} {FirstLetter}.");
+// System.Console.Write("Введите имя: ");
+// string Name = System.Console.ReadLine();
+// System.Console.Write("Введите фамилию: ");
+// string Surname = System.Console.ReadLine();
+// char FirstLetter = Name[0];
+// System.Console.WriteLine($"{Surname} {FirstLetter}.");
+
+// using System.Data;
+
+// System.Console.Write("Целое число: ");
+// string WholeInput = System.Console.ReadLine();
+// bool Whole = int.TryParse(WholeInput, out int a);
+// System.Console.Write("Дробное число: ");
+// string FractionalInput = System.Console.ReadLine();
+// bool Fractional = double.TryParse(FractionalInput, out double b);
+// System.Console.Write("Дата: ");
+// string DataInput = System.Console.ReadLine();
+// bool Data = DateTime.TryParse(DataInput, out System.DateTime c);
+// System.Console.WriteLine();
+// System.Console.WriteLine($"Целое число: {a} - {Whole}");
+// System.Console.WriteLine($"Дробное число: {b} - {Fractional}");
+// System.Console.WriteLine($"Дата: {c} - {Data}");
